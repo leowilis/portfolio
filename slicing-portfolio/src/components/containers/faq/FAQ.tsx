@@ -56,9 +56,12 @@ export default function FAQ() {
     <section className="px-4 py-12 md:px-20 md:py-32">
       <div className="mb-8 md:flex md:items-start md:justify-between">
         <div>
-          <h2 className="text-4xl font-bold mb-4 md:text-5xl">Still Got Questions?</h2>
+          <h2 className="text-4xl font-bold mb-4 md:text-5xl">
+            Still Got Questions?
+          </h2>
           <p className="text-neutral-400 text-md md:text-lg md:max-w-xl">
-            I’ve listed answers to questions I often get as a frontend developer.
+            I’ve listed answers to questions I often get as a frontend
+            developer.
           </p>
         </div>
 
@@ -104,7 +107,7 @@ export default function FAQ() {
       </div>
 
       {/* Mobile - single card */}
-      <div className="md:hidden">
+      <div className="md:hidden max-w-full">
         <Card className="bg-primary-400 border-none">
           <CardContent className="space-y-3">
             <div className="flex items-start justify-between">
