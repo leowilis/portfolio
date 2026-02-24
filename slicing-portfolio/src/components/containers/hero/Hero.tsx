@@ -64,7 +64,7 @@ export default function Hero() {
           {/* Content */}
           <div className="flex flex-col gap-4 mt-6 text-left md:mt-0 md:gap-8 md:p-30 md:pb-20 md:pt-40">
             <p className="font-medium md:text-base">Hi. I’m Edwin Anderson</p>
-            <h1 className="font-bold leading-20 tracking-tight text-[68px]/[70px] md:text-8xl md:leading-none md:-tracking-wider">
+            <h1 className="font-bold tracking-tight text-[clamp(3rem,15vw,4.0rem)] leading-tight md:text-8xl md:leading-none md:-tracking-wider">
               FRONT<span className={`${charm.className} font-normal md:italic`}>END</span>
               <span className="md:block"> DEVELOPER</span>
             </h1>
