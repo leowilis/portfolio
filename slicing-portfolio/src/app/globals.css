@@ -142,6 +142,7 @@
   @apply px-4 py-4 md:px-20;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }

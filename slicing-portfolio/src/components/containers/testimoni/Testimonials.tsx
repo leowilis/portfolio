@@ -79,7 +79,7 @@ export default function trusted() {
                 </div>
               )}
               <Image src={RatingIcon} alt="Rating" width={91} height={16} />
-              <p className="text-neutral-400 text-md leading-7 w-[321px]">
+              <p className="text-neutral-400 text-md leading-7 w-full break-words">
                 {item.testimonial}
               </p>
               <div className="flex items-center justify-between pt-4">
@@ -122,7 +122,7 @@ export default function trusted() {
                 </p>
               </div>
               <Image src={RatingIcon} alt="Rating" width={91} height={16} />
-              <p className="text-neutral-400 text-sm leading-7">
+              <p className="text-neutral-400 text-sm leading-7 w-full break-words">
                 {testimonials[0].testimonial}
               </p>
             </div>
@@ -162,7 +162,7 @@ export default function trusted() {
                 </p>
               </div>
               <Image src={RatingIcon} alt="Rating" width={91} height={16} />
-              <p className="text-neutral-400 text-sm leading-7">
+              <p className="text-neutral-400 text-sm leading-7 w-full break-words">
                 {testimonials[1].testimonial}
               </p>
             </div>
