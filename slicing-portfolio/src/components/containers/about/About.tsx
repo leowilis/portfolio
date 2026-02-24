@@ -50,7 +50,7 @@ export default function About() {
       <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-12">
         {/* Title */}
         <div className="md:max-w-2xl">
-          <h2 className="text-4xl md:text-3xl font-bold leading-relaxed mb-12">
+          <h2 className="text-3xl md:text-3xl font-bold leading-relaxed mb-12">
             I turn ideas and designs into functional, accessible, and performant websites
             <span className="text-primary-300 block md:block">
               using modern frontend technologies
