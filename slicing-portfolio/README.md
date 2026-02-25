@@ -1,73 +1,131 @@
-# Portfolio Website
+# 📘 Portfolio Website — Next.js (Based on Figma)
 
-Membangun aplikasi web modern menggunakan **Next.js**.
+> A modern responsive portfolio website built with Next.js, Tailwind CSS, Shadcn UI, and Framer Motion.
 
-# Project Overview
-Project ini merupakan implementasi desain dari Figma:
-Portfolio 2 – REP 
+---
 
-Tujuan project:
-- Mengubah desain Figma menjadi website responsive
-- Menerapkan best practice frontend modern
-- Deploy ke live environment
+## 📌 Table of Contents
+1. Project Overview
+2. Design Reference
+3. Live Preview
+4. Tech Stack
+5. Features
+6. Code Structure
+7. Getting Started
+8. Deployment
+9. Error Handling
+10. Future Improvements
+11. Author
+12. License
 
-## 🎨 Design Reference
+---
 
-Figma File:
+## 🧠 1. Project Overview
+
+This project is a portfolio website built using **Next.js 20** with a mobile-first responsive design.
+
+It is a result of slicing a Figma design into a functional web experience, implementing modern frontend best practices and reusable components.
+
+**Goal**
+- Transform a Figma design into a responsive website
+- Apply clean, maintainable, and scalable frontend code
+- Deploy to a production environment
+
+---
+
+## 🎨 2. Design Reference
+
+**Figma Design:**  
 https://www.figma.com/design/St7L3UrO1MbNedzDFH4OCl/Portfolio-2---REP
 
-Hal yang diperhatikan saat slicing:
-- Layout consistency (grid & spacing)
-- Typography scale
-- Color system
-- Responsive behavior
-- Component reusability
+**Design Implementation Notes:**
+- Layout consistency with grid and spacing
+- Scalable typography
+- Well-defined color system
+- Responsive behavior across devices
+- Component reuse
 
-## 🛠 Tech Stack
+---
 
-Project ini sudah menggunakan:
-- **Next.js 20** 
-- **Shadcn**
-  - Add button
-  - Add card
-  - Add textarea
-  - Add input
-  - Add sonner
-- **TypeScript**
-- **Tailwind CSS**
-- **Framer Motion**
-  - For company logos
-  - Skill Tools Name & Percentage
-  - AnimatePresence for percentage bar
-  - For Portfolio 
+## 👀 3. Live Preview
+
+*(Add screenshot images here in Notion)*
+
+Example placeholders:
+
+📱 Mobile Preview  
+🌐 Desktop Preview  
+🎨 Figma reference
+
+---
+
+## 🛠 4. Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Framework | Next.js 20 |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| UI Kit | Shadcn |
+| Animation | Framer Motion |
+| Icons | SVG/Custom |
+
+---
+
+## 🚀 5. Features
+
+✔ Responsive design (Desktop & Mobile)  
+✔ Animation using Framer Motion  
+✔ Reusable UI components  
+✔ Carousel & card animations  
+✔ CTA sections and buttons  
+✔ Dynamic FAQ component with carousel navigation
+
+---
+
+## 🗂 6. Code Structure
+
+src/
+├── app/
+| ├──api/
+| | ├──contact/
+| |   └──route.tsx
+│ ├── page.tsx
+│ └── layout.tsx
+├── components/
+│ ├── containers/
+| ├── ui/
+└── lib/
 
 
 
-## 🛠 Error Handling
+- **app/** — Main pages & layout  
+- **components/ui/** — Shared UI components  
+- **components/containers/** — UI sections  
+- **assets/** — Static images/icons  
+- **lib/** — Utility functions
 
+---
 
+## 🏁 7. Getting Started
 
-## 🚀 Getting Started
+## Install dependencies
 
-1. **Install dependencies**
-   ```bash
-   npm install
-   # atau
-   yarn install
-   # atau
-   pnpm install
-   ```
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
 
-2. **Jalankan development server**
-   ```bash
-   npm run dev
-   # atau
-   yarn dev
-   # atau
-   pnpm dev
-   ```
+## Run development server
 
-3. **Buka browser**
-   ```
-   http://localhost:3000
-   ```
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+
+## Open app
+
+http://localhost:3000
